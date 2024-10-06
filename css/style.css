@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding :0;
+    font-family: Geneva, Verdana, sans-serif
+}
+/* starts here */
+header{
+    background-color: black;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 1.5vw;
+}
+header nav .scet-logo{
+    padding: 1vw 0 0 1vw;
+    height: 5vw;
+    width : 9vw;
+}
+header nav .nexus-logo{
+    padding: 1vw 0 0 1vw;
+    width : 13vw;
+}
+header nav div{
+    display: flex;
+    gap: 2vw;
+}
+header nav div a{
+    color: whitesmoke;
+    padding:0.5vw;
+    
+    background-color: green;
+    border-radius: 0.4vw;
+
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+header nav div a:hover{
+    background-color: black;
+    cursor: pointer;
+}
+header nav div a:active{
+    color: limegreen;
+    cursor: pointer;
+}
+
+/* HOME SECTION */
+#home{
+    height: fit-content;
+    position: relative;
+    top: -1px;
+    color:whitesmoke;
+    background-color: black;
+
+}
+#home .scet{
+    /* color: limegreen; */
+    position: relative;
+    top: 6vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+}
+#home .scet:hover{
+    color: limegreen;
+}
+#home .scet-tag{
+    text-align: center;
+    position: relative;
+    top: 7vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+#home .say{
+    text-align: center;
+    position: relative;
+    top: 10vw;
+    font-size: 1vw;
+    font-weight: 400;
+}
+#home .welcome{
+    /* color: limegreen; */
+    position: relative;
+    top: 12vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+}
+#home .welcome:hover{
+    color: limegreen;
+}
+#home .slogan{
+    position: relative;
+    top: 13vw;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 500;
+}
+#home .hero-btns{ 
+    position: relative;
+    top: 16vw;
+    display: flex;
+    justify-content:center;
+}
+#home .joinus{
+    color: black;
+    background-color: limegreen;
+    padding: 1vw 1.2vw 1vw 1.2vw;
+    font-size: 1.5vw; 
+    font-family:monospace;
+    font-weight: 900;
+    border-style:solid;
+    border-width: 0.2vw;
+    border-color: limegreen;
+    border-radius: 2vw;
+}
+#home .joinus:hover{
+    cursor:pointer;
+    border-color: limegreen;
+    color: whitesmoke;
+    background-color: black;
+}
+#home #right-arrow{
+    font-size: 1.5vw;
+}
+#home p{
+    color: rgb(178, 178, 178);
+    width: 42vw;
+    margin-top: 24vw;
+    padding: 0 0 1.5vw 2vw;
+    font-size: 1vw;
+}
+/* NEWS SECTION */
+#news{
+    margin-top: 100px;
+}
+#news h1{
+    color: limegreen;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.9rem;
+    margin-bottom: 50px;
+}
+#news div{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+}
+#news div a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(43, 43, 43);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+body #back{
+    text-decoration: none;
+    position: sticky;
+    left: 710px;
+    bottom: 10px;
+    background: green;
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 8px;
+    font-size: 0.7rem;
+    border-radius: 20px;
+}
